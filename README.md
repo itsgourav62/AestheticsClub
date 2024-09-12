@@ -1,4 +1,4 @@
-#AestheticsClub - Terminal-Based Application
+**AestheticsClub - Terminal-Based Application**
 
 A Java-based terminal application for managing sports club activities, bookings, and memberships for users and admins.
 
