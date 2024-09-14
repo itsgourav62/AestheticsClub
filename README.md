@@ -23,10 +23,14 @@ A Java-based terminal application for managing sports club activities, bookings,
 - Multithreading for session management
 - Lambda Expressions for efficiency
 - Custom Exceptions for error handling
-- JUnit Testing (You'll need to add your own test cases)
+- JUnit Testing 
 
 ## Installation
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/itsgourav62/AestheticsClub.git
+
+2. **Set up the MySQL database using the provided SQL scripts in the sql/ folder.**
+
+3. **Run the project via the Main.java class.**
