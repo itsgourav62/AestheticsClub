@@ -1,7 +1,4 @@
-//create a demo test
-
 import org.junit.Before;
-// import org.junit.Test;
 
 import com.aestheticsclub.admindao.Admin;
 import com.aestheticsclub.admindao.AdminInterface;
@@ -10,7 +7,7 @@ import com.aestheticsclub.userdao.UserInterface;
 
 import junit.framework.TestCase;
 
-public class Test extends TestCase {
+public class TestLogin extends TestCase {
     private static UserInterface user;
     private static AdminInterface admin;
 
@@ -30,7 +27,7 @@ public class Test extends TestCase {
 
     @org.junit.Test
     public static void testAdminlogin() {
-        Boolean status = admin.login("a", "a");
+        Boolean status = admin.login("0", "0");
         //Check if the status is true
         assertTrue("Admin login status should be true", status);
     }
